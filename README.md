@@ -1,5 +1,5 @@
 # micro-services-kubernetes-go
-
+# winget install GoLang.Go
 
 $root = "go-microservices"
 
