@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Go Microservices</title>
+</head>
+<body>
+<h1>Go Microservices Frontend</h1>
+
+<h2>Users</h2>
+<ul>{{range .Users.Data}}<li>{{.}}</li>{{end}}</ul>
+
+<h2>Orders</h2>
+<ul>{{range .Orders.Data}}<li>{{.}}</li>{{end}}</ul>
+
+<h2>Cart</h2>
+<ul>{{range .Cart.Data}}<li>{{.}}</li>{{end}}</ul>
+</body>
+</html>
